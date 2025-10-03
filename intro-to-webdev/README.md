@@ -1,3 +1,20 @@
+# Resources 
+https://www.w3schools.com
+
+https://developer.mozilla.org
+
+# Free courses 
+https://www.freecodecamp.org/learn
+
+https://www.theodinproject.com/paths
+
+# Learn with games 
+https://flexboxfroggy.com
+
+https://flukeout.github.io
+
+https://cssgridgarden.com
+
 # Portfolio Examples and inspiration
 https://portfolio-website-abdullah-jamess.vercel.app/
 
