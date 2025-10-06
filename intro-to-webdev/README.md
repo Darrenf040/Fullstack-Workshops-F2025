@@ -34,6 +34,8 @@ https://nidnasser.me/
 
 https://aakash-sharma.netlify.app/
 
+https://darrenf040.github.io/darren-portfolio/
+
 # VS Code Extensions
 
 https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
