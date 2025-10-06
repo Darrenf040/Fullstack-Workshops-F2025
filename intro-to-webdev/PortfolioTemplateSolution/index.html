@@ -10,7 +10,7 @@
   <body>
     <section id="topnav">
       <div class="name-and-section-links">
-        <span class="name-text">Your Name</span>
+        <span class="name-text">Joshua Novak</span>
         <a href="#about" class="section-link">About Me</a>
         <a href="#project" class="section-link">Projects</a>
         <a href="#contact" class="section-link">Contact</a>
@@ -27,12 +27,12 @@
     <section id="intro">
       <div class="intro-text">
         <p class="intro-big-text">
-          Hi, I'm YOUR NAME<br />
+          Hi, I'm <span id="name-text-gradient">Joshua Novak</span><br />
           Welcome to my Portolfio!
         </p>
         <p class="intro-subtext">Fullstack Engineer in Houston</p>
       </div>
-      <img class="intro-image" src="./images/headshot.png" />
+      <img class="intro-image" src="https://professional-website-626228053985.us-south1.run.app/assets/headshot-D_bK27oL.png" />
     </section>
 
     <div class="hide mobile-menu">
@@ -57,13 +57,30 @@
 
     <!--Fill in code for each -->
     <section id="about">
-      <p>Provide a short description of your professional, academic, and personal experience. Something that employers are likely to look for.</p>
-      <p>Multiple paragraphs can be added in order to logically organize content.</p>
+      <p>I am Joshua Novak, a fullstack engineer with an interest in building web applications. I am experienced with many modern technologies such as React, Angular, ASP.NET, Next.JS, and Vue.</p>
+      <p>I will be interning at Capital One as a Software Engineer during the Summer of 2026.</p>
     </section>
     <section id="project">
       <p class="projects-title-text">PROJECTS</p>
+      <div class="project-container">
+        <div onclick="openProjectWindow(event);" id="project-1" class="project-box">
+          <img class="project-thumbnail" src="./images/portfolio-site-thumbnail.png" />
+          <p class="project-title">My ACTUAL portfolio</p>
+          <div class="technologies-list">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" />
+            <img src="./images/react-svgrepo-com.svg" />
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="contact">Contact Section</section>
+    <section id="contact">
+      <p class="contact-title-text">CONTACT</p>
+      <ul class="contact-list">
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/AlrightyTighty">AlrightyTighty</a></li>
+        <li>Email: <a href="mailto:joshuanovak308@gmail.com">joshuanovak308@gmail.com</a></li>
+        <li>Discord: AlrightyTighty</li>
+      </ul>
+    </section>
 
     <footer></footer>
     <script src="index.js"></script>
