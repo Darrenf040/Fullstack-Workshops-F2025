@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="topnav">
+    <section id="topnav">
       <div class="name-and-section-links">
         <span class="name-text">Your Name</span>
         <a href="#about" class="section-link">About Me</a>
@@ -23,8 +23,8 @@
       <div class="hamburger-menu-container">
         <img src="./images/hamburger-menu.svg" alt="" />
       </div>
-    </div>
-    <div class="intro">
+    </section>
+    <section id="intro">
       <div class="intro-text">
         <p class="intro-big-text">
           Hi, I'm YOUR NAME<br />
@@ -33,7 +33,7 @@
         <p class="intro-subtext">Fullstack Engineer in Houston</p>
       </div>
       <img class="intro-image" src="./images/headshot.png" />
-    </div>
+    </section>
 
     <div class="hide mobile-menu">
       <div class="close-menu">
@@ -44,14 +44,44 @@
       <a href="#contact" class="section-link">Contact</a>
     </div>
 
+    <div class="hide project-info">
+      <button class="project-info-close-button"></button>
+      <div class="inner-project-info-panel">
+        <p class="project-info-title">Project Title</p>
+        <img class="project-info-thumbnail" src="https://picsum.photos/200/100" />
+        <div class="project-info-description">
+          <p>This is the project description, where the description goes. Write a long and detailed description here.</p>
+        </div>
+      </div>
+    </div>
+
     <!--Fill in code for each -->
-    <section id="about">About Section</section>
-    <section id="project">Projects Section</section>
-    <section id="skills">Skills Section</section>
+    <section id="about">
+      <p>Provide a short description of your professional, academic, and personal experience. Something that employers are likely to look for.</p>
+      <p>Multiple paragraphs can be added in order to logically organize content.</p>
+    </section>
+    <section id="project">
+      <p class="projects-title-text">PROJECTS</p>
+      <div class="project-container">
+        <div onclick="openProjectWindow(event);" id="project-1" class="project-box">
+          <img class="project-thumbnail" src="https://picsum.photos/200/100" />
+          <p class="project-title">Project Title</p>
+          <div class="technologies-list">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" />
+          </div>
+        </div>
+        <div onclick="openProjectWindow(event);" id="project-2" class="project-box">
+          <img class="project-thumbnail" src="https://picsum.photos/200/100" />
+          <p class="project-title">Project Title</p>
+          <div class="technologies-list">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" />
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="contact">Contact Section</section>
 
     <footer></footer>
-
     <script src="index.js"></script>
   </body>
 </html>
