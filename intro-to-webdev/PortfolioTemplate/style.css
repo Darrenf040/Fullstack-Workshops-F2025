@@ -7,13 +7,19 @@
   backdrop-filter: blur(10px);
 }
 
+a {
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: inter;
   background-image: linear-gradient(to top, #293a63, #09101f);
-  height: 1920px;
   color: white;
   position: relative;
+}
+
+section {
+  padding: 0 50px;
 }
 
 .topnav {
