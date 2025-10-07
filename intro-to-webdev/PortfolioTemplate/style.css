@@ -169,7 +169,11 @@ section {
   width: 1000px;
   height: 800px;
   border-radius: 50px;
-  background-image: linear-gradient(to bottom, rgb(23, 25, 46), rgb(61, 70, 139));
+  background-image: linear-gradient(
+    to bottom,
+    rgb(23, 25, 46),
+    rgb(61, 70, 139)
+  );
 }
 
 .project-info-title {
@@ -205,4 +209,30 @@ section {
 
 .hide {
   display: none;
+}
+
+.project-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.project {
+  background-color: rgb(29, 34, 91);
+  border-radius: 20px;
+  transition: 0.25s;
+}
+
+.project img {
+  border-radius: 20px 20px 0 0;
+}
+
+.project-name {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.project:hover {
+  transform: scale(1.02);
+  border: solid white 1px;
 }
