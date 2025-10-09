@@ -14,10 +14,12 @@ https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intell
 
 `npm create vite@latest`
 
-# Run React Code
+## Run React Code
 
 `cd [your react folder]` make sure your in the folder where react code is
+
 `npm install`
+
 `npm run dev`
 
 # Mock Data API
@@ -26,13 +28,13 @@ https://randomuser.me/api
 # Spinner
 ---
 
-npm install react-bootstrap bootstrap
+`npm install react-bootstrap bootstrap`
 
 ## Add Bootstrap CSS to your project (usually in index.js or main.jsx):
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+`import 'bootstrap/dist/css/bootstrap.min.css';`
 
-import Spinner from 'react-bootstrap/Spinner';
+`import Spinner from 'react-bootstrap/Spinner';`
 
 ---
 
