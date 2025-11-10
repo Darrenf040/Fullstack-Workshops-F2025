@@ -8,6 +8,7 @@ mkdir server
 cd server
 npm init -y
 npm install express cors dotenv
+npm install --save-dev nodemon
 
 create server.js file
 create .gitignore file
@@ -36,6 +37,9 @@ require('dotenv').config();
  node server.js
  ```
 
+ # format of data being sent
+ {name, email, role, location}
+
 # database setup
 
 ## installation
@@ -49,6 +53,7 @@ in your computers command prompt run
 ```bash 
 psql --version
 ```
+
 
 ## setup system enviornment variable for postgres
 https://youtu.be/anVEKogpfLg?si=hykP2o1QrT-c5Afd
