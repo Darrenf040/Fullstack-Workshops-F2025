@@ -8,13 +8,17 @@ mkdir server
 cd server
 npm init -y
 npm install express cors dotenv
+```
 
 create server.js file
+
 create .gitignore file
+
 create .env file
+
 add node_modules and .env to gitignore file
-```
- ## env variables
+
+ ## .env variables
  ```bash
  PORT=5000
 ```
