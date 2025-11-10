@@ -26,6 +26,14 @@ add node_modules and .env to gitignore file
  PORT=5000
 ```
 
+# setup & start frontend
+make a new terminal
+```bash
+cd client
+npm install
+npm start
+```
+
  # load env variables (add to very top of file)
 ```bash 
 require('dotenv').config(); 
