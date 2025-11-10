@@ -2,6 +2,9 @@ This guide walks you through setting up a basic Express server connected to a Po
 
 ---
 
+# Required Software
+https://nodejs.org/en/download
+
 # setup express server
 ```bash
 mkdir server
@@ -11,11 +14,14 @@ npm install express cors dotenv
 npm install --save-dev nodemon
 
 create server.js file
+
 create .gitignore file
+
 create .env file
+
 add node_modules and .env to gitignore file
-```
- ## env variables
+
+ ## .env variables
  ```bash
  PORT=5000
 ```
@@ -97,3 +103,6 @@ pool.connect()
 
 module.exports = pool;
 ```
+
+# Additional Tools
+https://www.postman.com/
