@@ -2,7 +2,7 @@ This guide walks you through setting up a basic Express server connected to a Po
 
 ---
 
-# Required Tools
+# Required Software
 https://nodejs.org/en/download
 
 # setup express server
